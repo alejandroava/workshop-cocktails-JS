@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.cocktail {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.cocktail img {
+    width: 100%;
+    height: auto;
+}
+
+.cocktail-info {
+    padding: 10px;
+}
+
+.cocktail-info h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logout-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout-button {
+    background-color: #f44336; /* Color rojo */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #cc0000; /* Color rojo más oscuro al pasar el mouse */
+}
